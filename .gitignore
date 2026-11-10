@@ -1,0 +1,8 @@
+# Local or secret parameter files – never commit real secrets
+*.local.parameters.json
+.env
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
