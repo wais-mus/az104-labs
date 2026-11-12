@@ -15,7 +15,7 @@ Based on the Microsoft Learn exercise *Create and deploy an Azure Resource Manag
 | File | What it is |
 |------|------------|
 | `azuredeploy-blank.json` | Empty template. Deploys nothing; proves the process works. |
-| `azuredeploy.json` | Where I got to in the exercise (unit 3): storage account with a `storageName` parameter. Starting point for unit 5. |
+| `azuredeploy.json` | Finished exercise template (unit 5): `storageName` parameter, `storageSKU` parameter with allowed values, and a `storageEndpoint` output. |
 | `azuredeploy-storage.json` | Extended version: name and SKU as parameters, security settings and an output. |
 | `azuredeploy.parameters.json` | Values for the storage template. Change `storageName` to something unique before deploying. |
 | `deploy.sh` | Helper script to deploy and clean up. |
